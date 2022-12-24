@@ -40,29 +40,30 @@ Integrating this dataset with other external datasets such as IMDB ratings, rott
 
 
 
-#**Conclusion**
+# **Conclusion**
 
-###1. Data set contains 7787 rows and 12 columns in that cast and director features contains large number of missing values so we decided to drop this director attribute also duration and show_id attribute because its not useful for our model.
+1. Data set contains 7787 rows and 12 columns in that cast and director features contains large number of missing values so we decided to drop this director attribute also duration and show_id attribute because its not useful for our model.
 
-###2. We have two types of content TV shows and Movies (30.95% contains TV shows and 69.05% contains Movies)
+2. We have two types of content TV shows and Movies (30.95% contains TV shows and 69.05% contains Movies)
 
-###3. The United States has the highest number of content on Netflix by a huge margin followed by India.
+3. The United States has the highest number of content on Netflix by a huge margin followed by India.
 
-###4. Anupam Kher has acted in the highest number of films on Netflix. Documentaries is the most popular genre followed by Stand-up comedy.
+4. Anupam Kher has acted in the highest number of films on Netflix. Documentaries is the most popular genre followed by Stand-up comedy.
 
-###5. Most films were released in the years 2018, 2019, and 2020.
+5. Most films were released in the years 2018, 2019, and 2020.
 
-###6. The number of releases have significantly increased after 2015 and have dropped in 2021 because of Covid 19.
+6. The number of releases have significantly increased after 2015 and have dropped in 2021 because of Covid 19.
 
-###7. By analysing the content added over years we get to know that in recent years netflix is focusing movies than TV shows.
+7. By analysing the content added over years we get to know that in recent years netflix is focusing movies than TV shows.
 
-###8. The second thing we did was feature engineering, which involved removing certain variables and preparing a dataframe to feed the clustering algorithms.
+8. The second thing we did was feature engineering, which involved removing certain variables and preparing a dataframe to feed the clustering algorithms.
 
-###9. By applying the silhouette score method for n range clusters on dataset we got best score which is 0.348 for clusters = 3,  it means content explained well on their own clusters.
+9. By applying the silhouette score method for n range clusters on dataset we got best score which is 0.348 for clusters = 3,  it means content explained well on their own clusters.
 
-###10. For the clustering algorithm, we utilised "descripton" and "listed_in" attributes
+10. For the clustering algorithm, we utilised "descripton" and "listed_in" attributes
 
-###11. Applied different clustering models Kmeans, hierarchical, Agglomerative clustering on data we got the best cluster arrangments
+11. Applied different clustering models Kmeans, hierarchical, Agglomerative clustering on data we got the best cluster arrangments
 
-###12. Speaking about other different cluster methods, K mean, hierarchical, agglomerative clustering on data, we got the best cluster arrangements.
-###**Optimal number of cluster = 3**
+12. Speaking about other different cluster methods, K mean, hierarchical, agglomerative clustering on data, we got the best cluster arrangements.
+13. 
+### **Optimal number of cluster = 3**
